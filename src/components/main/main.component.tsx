@@ -1,4 +1,4 @@
-import * as S from './main.styled'
+import * as S from './main.styles'
 
 export const Main = () => (
   <S.Wrapper>
