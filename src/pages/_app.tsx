@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { GlobalStyles } from 'styles/global'
+import 'styles/global.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="A simple next boilerplate description"
         />
       </Head>
-      <GlobalStyles />
       <Component {...pageProps} />
     </>
   )

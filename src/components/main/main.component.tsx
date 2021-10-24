@@ -1,7 +1,5 @@
-import * as S from './main.styles'
-
 export const Main = () => (
-  <S.Wrapper>
-    <S.Heading>React avançado</S.Heading>
-  </S.Wrapper>
+  <main className="flex justify-center items-center h-screen bg-blue-400">
+    <h1>React avançado</h1>
+  </main>
 )
